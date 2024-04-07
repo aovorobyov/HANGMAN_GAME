@@ -85,4 +85,11 @@
   .result-word {
     @apply font-medium uppercase;
   }
+
+  #author {
+    @apply bottom-4 absolute left-0 right-0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
 }
